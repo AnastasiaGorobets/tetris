@@ -5,6 +5,7 @@ import net.tetris.services.PlotColor;
 
 public interface Figure {
 	int getI();
+	int a;
 	
     Type getType();
 
