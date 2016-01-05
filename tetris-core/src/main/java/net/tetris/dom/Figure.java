@@ -78,6 +78,9 @@ public interface Figure {
     int[] getRowCodes(boolean ignoreColors);
 
     int getWidth();
+	
+	
+	int getNew();
 
     Figure getCopy();
 }
