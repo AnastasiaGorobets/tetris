@@ -4,6 +4,8 @@ import net.tetris.services.Plot;
 import net.tetris.services.PlotColor;
 
 public interface Figure {
+	int getI();
+	
     Type getType();
 
     Figure rotate(int times);
